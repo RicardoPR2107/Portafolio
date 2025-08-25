@@ -109,3 +109,18 @@ body {
     font-size: 1.50rem;
     font-weight: 400;
 }
+
+@media (max-width: 75rem) {
+    .header_menu {
+        padding: 2%;
+        justify-content: center;
+    }
+    .presentacion {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .presentacion_contenido {
+        width: 100%;
+        text-align: center;
+    }
+}
